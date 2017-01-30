@@ -10,9 +10,9 @@
   <name>git</name>
   <url>http://maven.apache.org</url>
   <scm>
-		<url>https://github.com/qureshimca/ismail-repo.git</url>
-		<connection>scm:git:git://github.com/qureshimca/ismail-repo.git</connection>
-		<developerConnection>scm:git:git@github.com:qureshimca/.git</developerConnection>
+		<url>git@github.com:qureshimca/ismail-repo.git</url>
+		<connection>scm:git:git:git@github.com:qureshimca/ismail-repo.git</connection>
+		<developerConnection>scm:git:git@github.com:qureshimca/ismail-repo.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
  
