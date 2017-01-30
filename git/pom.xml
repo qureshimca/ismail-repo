@@ -12,7 +12,7 @@
   <scm>
 		<url>https://github.com/qureshimca/ismail-repo.git</url>
 		<connection>scm:git:git://github.com/qureshimca/ismail-repo.git</connection>
-		<developerConnection>scm:git:git@github.com:qureshimca/ismail-repo.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:qureshimca/.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
  
@@ -30,17 +30,18 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-    <snapshotRepository>
+  <repository>
         <id>central</id>
+        <name>acer-PC-releases</name>
+        <url>http://localhost:8081/artifactory/ext-release-local</url>
+    </repository>
+        
+    <snapshotRepository>
+			    <id>central</id>
         <name>acer-PC-snapshots</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 
 
-    <repository>
-        <id>central</id>
-        <name>acer-PC-releases</name>
-        <url>http://localhost:8081/artifactory/ext-release-local</url>
-    </repository>
-</distributionManagement>
+    
 </project>
