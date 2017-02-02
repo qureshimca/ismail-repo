@@ -45,7 +45,7 @@
 	
   <distributionManagement>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>central</id>
         <name>acer-PC-snapshots</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
