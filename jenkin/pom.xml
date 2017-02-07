@@ -12,7 +12,7 @@
    <scm>
 		<url>https://github.com/qureshimca/ismail-repo.git</url>
 		<connection>scm:git:git://github.com/qureshimca/ismail-repo.git</connection>
-		<developerConnection>scm:git:git@github.com:qureshimca/ismailrepo.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:qureshimca/ismail-repo.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
  
