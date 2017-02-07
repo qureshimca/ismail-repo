@@ -3,7 +3,7 @@
 
   <groupId>in.co.jenkin</groupId>
   <artifactId>jenkin</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>jenkin</name>
@@ -12,7 +12,7 @@
 		<url>https://github.com/qureshimca/ismail-repo.git</url>
 		<connection>scm:git:git://github.com/qureshimca/ismail-repo.git</connection>
 		<developerConnection>scm:git:git@github.com:qureshimca/ismail-repo.git</developerConnection>
-	  <tag>jenkin-1.0</tag>
+	  <tag>HEAD</tag>
   </scm>
  
 
