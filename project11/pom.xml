@@ -10,9 +10,9 @@
   <name>project11</name>
   <url>http://maven.apache.org</url>
    <scm>
-		<url>https://github.com/qureshimca/maventest.git</url>
-		<connection>scm:git:git://github.com/qureshimca/maventest.git</connection>
-		<developerConnection>scm:git:git@github.com:qureshimca/maventest.git</developerConnection>
+		<url>https://github.com/qureshimca/ismail-repo.git</url>
+		<connection>scm:git:git://github.com/qureshimca/ismail-repo.git</connection>
+		<developerConnection>scm:git:git@github.com:qureshimca/ismail-repo.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
  
@@ -29,7 +29,8 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies> <build>
+  </dependencies>
+  <build>
   <plugins>
   <plugin>
 	
@@ -43,14 +44,9 @@
    </build>
 	
   <distributionManagement>
-    <repository>
+   
+   <snapshotRepository>
         <id>central</id>
-        <name>acer-PC-releases</name>
-        <url>http://localhost:8081/artifactory/ext-release-local</url>
-    </repository>
-
-    <snapshotRepository>
-        <id>snapshots</id>
         <name>acer-PC-snapshots</name>
         <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
     </snapshotRepository>
