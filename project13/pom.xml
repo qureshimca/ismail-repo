@@ -50,7 +50,7 @@
     </repository>
 
     <snapshotRepository>
-        <id>cnetral</id>
+        <id>central</id>
         <name>acer-PC-snapshots</name>
         <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
     </snapshotRepository>
